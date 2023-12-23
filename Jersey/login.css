@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Gradient background */
+}
+
+.p {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border: 2px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+    width: 30%;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.p h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+}
+
+.p .input-box {
+    position: relative;
+    width: 100%;
+    height: 62px;
+    margin: 20px 0;
+}
+
+.p .input-box i {
+    position: absolute;
+    font-size: 20px;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    height: 100%;
+    background: #f8f8f8; /* Light gray background */
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #333;
+    padding: 20px;
+}
+
+.input-box select option {
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 18px;
+}
+
+.input-box input::placeholder,
+.input-box select::placeholder {
+    color: #777;
+}
+
+.input-box select::after {
+    content: "\f107";
+    font-family: "FontAwesome";
+    font-size: 18px;
+    color: #333;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.input-box select option[disabled] {
+    color: #999;
+}
+
+.p .btn,
+.p .btnn {
+    width: 48%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.p .btn {
+    background: #ff6f61; /* Coral color */
+    color: #fff;
+}
+
+.p .btnn {
+    background: #ffd166; /* Pastel yellow color */
+    color: #333;
+    margin-left: 4%;
+}

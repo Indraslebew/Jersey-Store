@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.p {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #3498db;
+    background: transparent;
+    outline: none;
+    color: #333;
+    margin-top: 5px;
+    transition: border-bottom-color 0.3s;
+}
+
+.input-box select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('https://img.icons8.com/ios/452/down2.png') no-repeat right center / 18px 18px;
+}
+
+.input-box input:focus,
+.input-box select:focus {
+    border-bottom-color: #2ecc71;
+}
+
+.show-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.show-password i {
+    font-size: 20px;
+    color: #3498db;
+    transition: color 0.3s;
+}
+
+.show-password i:hover {
+    color: #2ecc71;
+}
+
+.btn,
+.btnn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btnn:hover {
+    background: #2980b9;
+}
+
+.btnn {
+    background: #27ae60;
+}
+
+.btnn:hover {
+    background: #219a52;
+}

@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    height: 100vh;
+    box-sizing: border-box; /* Hindari overflow di tingkat penuh tinggi */
+    overflow-y: auto; /* Tambahkan overflow untuk scroll jika diperlukan */
+    position: fixed; /* Fixed positioning for the navigation bar */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Efek transisi pada hover */
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    margin-left: 220px; /* Adjust the margin to match the width of the nav */
+}
+
+.btn-tambah,
+.search-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: opacity 0.3s ease; /* Efek transisi pada hover */
+}
+
+.btn-hapus {
+    background-color: #F44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.btn-edit {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+button {
+    padding: 8px 15px;
+}
+
+.btn-tambah:hover,
+.search-form button:hover,
+.btn-edit:hover,
+.btn-hapus:hover {
+    opacity: 0.8;
+}
+
+.search-form {
+    margin-top: 20px;
+}
+
+.search-form input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.lapangan-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.lapangan-table th,
+.lapangan-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.lapangan-table th {
+    background-color: #4CAF50;
+    color: white;
+}

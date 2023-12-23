@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+header .about {
+    display: flex;
+    background-color: rgb(223, 0, 0);
+    padding: 5px;
+    align-items: center;
+    position: relative;
+}
+header .about .box{
+    flex-basis: 60%;
+}
+header .about .box ul li{
+    display: inline-block;
+    color: #fff;
+    margin: 8px;
+    align-items: center;
+    align-content: center;
+}
+header .about .box input{
+    margin-right: 3px;
+    padding: 5px;
+    margin-left: 65%;
+    border: none;
+    color: #fff;
+    background : none;
+    border-bottom: 2px solid #fff;
+}
+header .about .box button{
+    font-size: 12px;
+    padding: 7px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+header nav {
+    display: flex;
+    background-color:rgb(0, 0, 0);
+    padding: 30px 80px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+header nav .box-logo {flex-basis: 40%;}
+header nav .box-nav{flex-basis: 30%;}
+header nav .box-SingLog{flex-basis: 30%;}
+
+header nav .box-nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 16px;
+    color: #fff;
+}
+header nav .box-SingLog{text-align: right;}
+header nav .box-SingLog button{
+    padding: 5px;
+    margin-right: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    background: linear-gradient(yellow, red);
+    border: none;
+}
+header nav .box-SingLog button:hover{color: white;}
+header nav .box-nav ul li a{
+    text-decoration: none;
+    padding: 30px 5px;
+    color: #fff;
+}
+header nav .box-nav ul li a:hover{
+    background-color: rgba(247, 4, 4, 0.493);
+    border: none;
+    
+}
+.nm_baju{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(206, 4, 4) ;
+}
+main {
+    width: 60%;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 6px rgba(88, 88, 88, 0.63);
+    overflow: auto;
+}
+main .box_baju{
+    overflow: auto;
+}
+main .box_baju .img_baju{
+    float: left;
+    margin: 15px;
+}
+
+main .ket_baju{
+    margin-top: 15px;
+    padding: 10px;
+}
+main .ket_baju p{
+    margin-bottom: 10px;
+}
+main .ket_baju button{
+    padding: 8px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-color: rgb(255, 0, 0);
+    border-radius: 8px;
+    color: #fff;
+    background: linear-gradient(rgb(255, 0, 0),rgb(172, 0, 0));;
+}
+main .ket_baju button:hover{
+    color: black;
+    background: none;
+    
+}
+section h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+section h2 span{
+    color: rgb(223, 0, 0);
+    padding: 10px;
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+    height: 5px;
+    background-color: black;
+    margin-top: 5px;
+}
+.box_card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 21.8%;
+    float: left;
+    margin:10px 20px;
+    position: relative;
+}  
+.box_card .nama_brg{
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 200px;
+    position: absolute;
+    top: 65%;
+}
+.box_card .nama_brg p{
+    color: white;
+    padding-right:10px ;
+    padding-left:10px ;
+    padding-top:10px ;
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box_card .harga_brg{
+    background-color: rgb(168, 39, 39);
+    position: absolute;
+    top: 80%;
+}
+.box_card .harga_brg p{
+    color: white;
+    padding:5px ;
+    font-weight: bold;
+}
+
+
+
+
+footer .box-footer{
+    display: flex;
+    background-color: rgb(14, 13, 13);
+    padding: 30px;
+}
+footer .box-footer .box{
+    flex-basis: 33.3%;
+}
+footer .box-footer .box h3{
+    color: rgb(204, 204, 204) ;
+    padding-bottom: 15px;
+}
+footer .box-footer .box ul li{
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(80, 80, 80);
+}
+footer .box-footer .box p{
+    color: rgb(80, 80, 80);
+}
+.title{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    color: rgb(104, 104, 104);
+}
+.title img{
+    margin-right: 15px;
+}
+.input input{
+    padding: 8px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-color: rgb(255, 0, 0);
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 20px;
+    background: linear-gradient(rgb(255, 0, 0),rgb(172, 0, 0));;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lapangan</title>
+		<link rel="stylesheet" type="text/css" href="pesan.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<ul>
+					<br /><br /><br />
+					<li>
+						<a href="Dashboard.html">
+							<i class="fas fa-home"></i>
+							<span class="nav-item">Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="Lapangan.html">
+							<i class="fas fa-futbol"></i>
+							<span class="nav-item">Lapangan</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fas fa-money-check"></i>
+							<span class="nav-item">Pemesanan</span>
+						</a>
+					</li>
+					<li>
+						<a href="jadwal.html">
+							<i class="fas fa-clock"></i>
+							<span class="nav-item">Jadwal</span>
+						</a>
+					</li>
+					<li>
+						<a href="login.html" class="logout">
+							<i class="fas fa-sign-out-alt"></i>
+							<span class="nav-item">Logout</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="main">
+				<form class="search-form" action="">
+					<input type="text" name="search" placeholder="Cari..." />
+					<button type="submit"><i class="fas fa-search"></i></button>
+				</form>
+				<table class="lapangan-table">
+					<thead>
+						<tr>
+							<th>No</th>
+							<th>ID Pemesanan</th>
+							<th>ID lapangan</th>
+							<th>Waktu Main</th>
+							<th>Total Biaya</th>
+							<th>Status</th>
+							<th>Bukti Bayar</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>1</td>
+							<td>9,10,11</td>
+							<td>Rp.300.000</td>
+							<td>Lunas</td>
+							<td>
+								<button
+									class="btn-cek"
+									onclick="window.location.href='cek.html'"
+								>
+									Cek
+								</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

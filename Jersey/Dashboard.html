@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Index</title>
+		<link rel="stylesheet" href="dash.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+			integrity="sha384-XI0tPKMp+MDUu6X5s8+lu29YAgo/4Apo7KHPz3npnL+2fShGjDZMPFf1t91+9acw"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<div class="logo">
+					<img src="logo.png" alt="Logo" />
+					<span>Jersi Store</span>
+				</div>
+				<ul>
+					<li>
+						<a href="#" class="active">
+							<span class="nav-item"><i class="fas fa-home"></i> Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="produk.html">
+							<span class="nav-item"><i class="fas fa-cube"></i> Produk</span>
+						</a>
+					</li>
+					<li>
+						<a href="keranjang.html">
+							<span class="nav-item"
+								><i class="fas fa-shopping-cart"></i> Keranjang</span
+							>
+						</a>
+					</li>
+				</ul>
+				<div class="logout">
+					<a href="login.html">
+						<span class="nav-item"
+							><i class="fas fa-sign-out-alt"></i> Logout</span
+						>
+					</a>
+				</div>
+			</nav>
+
+			<section class="main">
+				<div class="main-skills">
+					<div class="card user-card">
+						<i class="fas fa-user card-logo"></i>
+						<h3>User</h3>
+						<p><b>10</b></p>
+					</div>
+					<div
+						class="card produk-card"
+						onclick="window.location.href='produk.html'"
+					>
+						<i class="fas fa-cube card-logo"></i>
+						<h3>Produk</h3>
+						<p><b>5</b></p>
+					</div>
+					<div
+						class="card keranjang-card"
+						onclick="window.location.href='keranjang.html'"
+					>
+						<i class="fas fa-shopping-cart card-logo"></i>
+						<h3>Keranjang</h3>
+						<p><b>10</b></p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

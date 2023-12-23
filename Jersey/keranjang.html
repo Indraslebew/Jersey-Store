@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Index</title>
+		<link rel="stylesheet" href="keranjang.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<div class="logo">
+					<img src="logo.png" alt="Logo" />
+					<span>Jersi Store</span>
+				</div>
+				<ul>
+					<li>
+						<a href="Dashboard.html" class="active">
+							<span class="nav-item">Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="produk.html">
+							<span class="nav-item">Produk</span>
+						</a>
+					</li>
+					<li>
+						<a href="keranjang.html">
+							<span class="nav-item">Keranjang</span>
+						</a>
+					</li>
+				</ul>
+				<div class="logout">
+					<a href="login.html">
+						<span class="nav-item">Logout</span>
+					</a>
+				</div>
+			</nav>
+			<div class="main">
+				<form class="search-form" action="">
+					<input type="text" name="search" placeholder="Cari..." />
+					<button type="submit"><i class="fas fa-search"></i></button>
+				</form>
+				<table class="lapangan-table">
+					<thead>
+						<tr>
+							<th>No</th>
+							<th>Nama User</th>
+							<th>Nama Barang</th>
+							<th>Jumlah</th>
+							<th>Harga</th>
+							<th>Total</th>
+							<th>Gambar</th>
+							<th>Bukti Bayar</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Mikha</td>
+							<td>Real Madrid</td>
+							<td>21</td>
+							<td>Rp.100,000</td>
+							<td>2.100.000</td>
+							<td><img src="b.jpg" height="120" /></td>
+							<td>
+								<button
+									class="btn-edit"
+									onclick="window.location.href='cek.html'"
+								>
+									Cek
+								</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
